@@ -1,0 +1,9 @@
+.mobile-content-padding-container {
+  padding: 2rem;
+}
+
+.featured-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

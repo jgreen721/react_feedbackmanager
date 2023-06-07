@@ -1,0 +1,13 @@
+.suggestion-card {
+  padding: 2.8rem 3.2rem;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+  .suggestion-card {
+    padding: 2.4rem;
+    display: flex;
+    /* border: 3px solid orange; */
+    flex-direction: column;
+  }
+}

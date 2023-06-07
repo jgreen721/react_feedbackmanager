@@ -1,0 +1,12 @@
+.reply-btn {
+  background: transparent;
+  color: var(--darkblue);
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.reply-btn:hover {
+  opacity: 75%;
+  text-shadow: 2px 3px 15px var(--darkblue);
+}

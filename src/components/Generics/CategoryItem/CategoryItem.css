@@ -1,0 +1,19 @@
+.category-item {
+  color: var(--blue);
+  background: var(--gray);
+  padding: 0.5rem 1.6rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  transition: 0.5s ease;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.category-item:hover {
+  background: var(--hoverblue);
+}
+
+.highlight {
+  color: var(--white);
+  background: var(--navyblue);
+}

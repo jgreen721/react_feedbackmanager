@@ -1,0 +1,61 @@
+.roadmap-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.border-peach {
+  position: relative;
+}
+
+.border-violet {
+  position: relative;
+}
+
+.border-blue {
+  position: relative;
+}
+
+.border-peach::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background: var(--peach);
+}
+.border-violet::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background: var(--violet);
+}
+.border-blue::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background: var(--blue);
+}
+
+.top-card-row,
+.bottom-card-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bottom-card-row {
+  justify-content: space-between;
+}
+
+/* .comments-div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+} */

@@ -1,0 +1,14 @@
+.suggestions-panel {
+  background: var(--gray);
+}
+.suggestions {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (max-width: 550px) {
+  .suggestions-panel {
+    padding: 1rem;
+  }
+}

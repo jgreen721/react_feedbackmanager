@@ -1,0 +1,32 @@
+.suggestions-row {
+  display: flex;
+  background: var(--darkblue);
+  padding: 2.3rem 2.4rem;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+  border-radius: 1rem;
+}
+
+.suggestions-row-column {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sort-select-div {
+  position: relative;
+}
+
+.sort-select-label {
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .suggestions-row {
+    border-radius: 0;
+  }
+  .remove-mobile {
+    display: none;
+  }
+}

@@ -1,0 +1,60 @@
+.hero {
+  position: relative;
+  color: white;
+  /* border: 2px solid green; */
+  border-radius: 1rem;
+  overflow: hidden;
+  background-image: url("./assets/suggestions/desktop/background-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+  min-width: 8.5rem;
+}
+
+.hero-content {
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  height: 100%; */
+  /* transform: translateY(-100%); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content-container {
+  height: 100%;
+  /* padding: 2rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.mobile-icons {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .hero {
+    background-image: url("./assets/suggestions/tablet/background-header.png");
+  }
+}
+
+@media (max-width: 550px) {
+  .hero {
+    border-radius: 0;
+    background-image: url("./assets/suggestions/mobile/background-header.png");
+  }
+  .mobile-icons {
+    display: block;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding: 0.5rem;
+  }
+
+  .mobile-icons:hover {
+    /* box-shadow: 2px 3px 15px white; */
+    transform: scale(1.2);
+  }
+}

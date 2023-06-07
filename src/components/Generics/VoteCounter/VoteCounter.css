@@ -1,0 +1,8 @@
+.vote-counter-div {
+  display: flex;
+  align-items: center;
+  background: var(--graywhite);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: var(--darkblue);
+}

@@ -1,0 +1,25 @@
+.categories-selector {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-selection-item {
+  /* flex: 1; */
+  /* text-align: center; */
+  border-bottom: 4px solid red;
+  flex: 1;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.highlight-border-bottom {
+  border-bottom: 4px solid green;
+}
+
+.category-selection-item:nth-child(2) {
+  text-align: center;
+}
+
+.category-selection-item:nth-child(3) {
+  text-align: end;
+}

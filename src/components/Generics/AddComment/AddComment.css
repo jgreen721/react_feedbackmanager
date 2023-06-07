@@ -1,0 +1,14 @@
+.addcomment-textarea {
+  width: calc(100% - 3rem);
+  resize: none;
+  background: var(--gray);
+  border-radius: 1rem;
+  border: none;
+  padding: 1.5rem;
+}
+
+.addcomment-textarea::placeholder {
+  font-family: var(--primaryFont);
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}

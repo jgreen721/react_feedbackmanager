@@ -1,0 +1,11 @@
+.comments-container {
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 850px) {
+  .feedbackinfo-parent {
+    padding: 0 1rem;
+  }
+  .comments-container {
+  }
+}

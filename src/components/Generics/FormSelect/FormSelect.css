@@ -1,0 +1,25 @@
+.form-select {
+  position: absolute;
+  background: var(--white);
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 2px 3px 15px gray;
+  overflow: hidden;
+  top: 5rem;
+  transition: 0.5s ease;
+  z-index: 5;
+}
+
+.form-select-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 2.4rem;
+  box-shadow: 0 3px 2px var(--graywhite);
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.hide-form-select {
+  transform: rotate(180deg) scale(0);
+}
