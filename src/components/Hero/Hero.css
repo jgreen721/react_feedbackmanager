@@ -4,7 +4,7 @@
   /* border: 2px solid green; */
   border-radius: 1rem;
   overflow: hidden;
-  background-image: url("./assets/suggestions/desktop/background-header.png");
+  background-image: url("./assets/background-header.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2rem;
@@ -37,14 +37,14 @@
 
 @media (max-width: 850px) {
   .hero {
-    background-image: url("./assets/suggestions/tablet/background-header.png");
+    background-image: url("background-header-tablet.png");
   }
 }
 
 @media (max-width: 550px) {
   .hero {
     border-radius: 0;
-    background-image: url("./assets/suggestions/mobile/background-header.png");
+    background-image: url("background-header-mobile.png");
   }
   .mobile-icons {
     display: block;
