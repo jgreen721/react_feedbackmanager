@@ -29,7 +29,7 @@ const SuggestionCard = ({suggestion}) => {
       <div className="mobile mt-2">
         <div className="flex justify-between my-2">
         <VoteCounter direction="row" votes={suggestion.upvotes}/>
-        <CommentsCounter id={suggestion.id} commentsTotal={suggestion.comments.length}/>
+        <CommentsCounter id={suggestion.id} commentsTotal={comments.filter(c=>c.commentId == suggestion.id).length}/>
 </div>
       </div>
     </div>
