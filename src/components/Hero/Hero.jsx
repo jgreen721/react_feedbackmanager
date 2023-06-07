@@ -4,11 +4,13 @@ import "./Hero.css"
 const Hero = ({showMobile,setShowMobile}) => {
   return (
     <div className="hero info-row-div">
-  {/* <picture>
+      <div className="hero-bg-container">
+  <picture>
       <source media="(min-width:650px)" srcSet={desktopHeroBg}/>
       <source media="(min-width:465px)" srcSet={tabletHeroBg}/>
       <img className="hero-bg" src={mobileHeroBg} alt="img"/>
-    </picture> */}
+    </picture>
+    </div>
     <div className="hero-content">
         <div className="hero-content-container">
 <h1>Frontend Mentor</h1>
