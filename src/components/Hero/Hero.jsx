@@ -11,8 +11,8 @@ const Hero = ({showMobile,setShowMobile}) => {
       <img className="hero-bg" src={mobileHeroBg} alt="img"/>
     </picture>
     </div>
-    <div className="hero-content">
-        <div className="hero-content-container">
+    <div className="hero-content-container">
+        <div className="hero-content">
 <h1>Frontend Mentor</h1>
 <h3>Feedback Board</h3>
 </div>

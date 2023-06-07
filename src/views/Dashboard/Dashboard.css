@@ -18,6 +18,11 @@
   gap: 2.4rem;
 }
 
+.info-column div {
+  /* flex-grow: 1; */
+  /* border: 2px solid green; */
+}
+
 .main-column {
   flex: 3;
   /* border: 2px solid orange; */
@@ -70,5 +75,9 @@
 
   .desktop-info-col {
     display: none;
+  }
+
+  .hero-parent-div {
+    width: 100%;
   }
 }

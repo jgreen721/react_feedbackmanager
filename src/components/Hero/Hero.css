@@ -7,8 +7,9 @@
   /* background-image: url("./assets/suggestions/desktop/background-header.png");
   background-repeat: no-repeat;
   background-size: cover; */
-  padding: 2rem;
-  min-width: 8.5rem;
+  /* padding: 2rem; */
+  /* min-width: 8.5rem; */
+  height: 100%;
 }
 
 .hero-bg-container {
@@ -22,28 +23,36 @@
 
 .hero-bg {
   width: 100%;
+  height: 100%;
 }
 
-.hero-content {
+.hero-content-container {
   /* position: absolute; */
   /* top: 0;
   left: 0;
   height: 100%; */
   /* transform: translateY(-100%); */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   position: relative;
   z-index: 10;
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; */
+  /* padding: 2rem; */
+  height: 100%;
 }
 
 .hero-content-container {
   height: 100%;
   /* padding: 2rem; */
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.hero-content {
+  padding: 2rem;
 }
 
 .mobile-icons {
@@ -60,6 +69,11 @@
   .hero {
     border-radius: 0;
     /* background-image: url("./assets/suggestions/mobile/background-header.png"); */
+  }
+
+  .hero-content-container {
+    justify-content: space-between;
+    width: 100%;
   }
   .mobile-icons {
     display: block;

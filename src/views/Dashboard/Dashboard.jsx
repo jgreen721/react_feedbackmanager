@@ -13,7 +13,9 @@ const Dashboard = () => {
   return (
     <div className="dashboard">
               <div className="info-column">
+                <div className="hero-parent-div">
         <Hero showMobile={showMobile} setShowMobile={setShowMobile}/>
+        </div>
         <div className="desktop-info-col">
           <Categories isMobile={false}/>
           </div>

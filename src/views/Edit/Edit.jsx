@@ -62,12 +62,14 @@ const Edit = () => {
   <FormDiv displayLabel="Update Status" label="status" placeholder={currItemInfo.status} description="Change feedback status" isSelect={true} isTextArea={false} options={statuses}/>
   <FormDiv displayLabel="Feedback Detail" label="detail" placeholder={currItemInfo.description} description="Include any specific comments on what should be improved, added,etc." isSelect={false} isTextArea={true} options={[]}/>
 
-  <div className="form-div form-btns">
+  <div className="form-btns">
+  <Button color="violet" handleAction={(e)=>handleUpdate(e)}>Update Feedback</Button>
+
     <Button color="red" handleAction={handleDelete}>Delete</Button>
-    <Link to='/'>
+    {/* <Link to='/'> */}
     <Button color="dark" handleAction={()=>navigate("/")}>Cancel</Button>
-    </Link>
-    <Button color="violet" handleAction={(e)=>handleUpdate(e)}>Update Feedback</Button>
+    {/* </Link> */}
+    {/* <Button color="violet" handleAction={(e)=>handleUpdate(e)}>Update Feedback</Button> */}
 
   </div>
 </form>

@@ -1,5 +1,5 @@
 .modal-container {
-  width: clamp(45%, 50rem, 90%);
+  width: clamp(70%, 57rem, 90%);
   /* width: 54rem; */
   /* border: 3px solid green; */
   margin: 0 auto;
@@ -35,7 +35,32 @@
 }
 
 .form-btns {
-  justify-content: flex-end;
-  display: flex;
-  gap: 2rem;
+  /* justify-content: flex-end; */
+  /* display: flex; */
+  /* gap: 2rem; */
+  /* flex-wrap: wrap; */
+  /* border: 5px solid green; */
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1050px) {
+  .form-btns {
+    justify-content: flex-start;
+  }
+
+  .form-btns button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .form-btns {
+    flex-direction: column;
+  }
+
+  .form-btns button {
+    width: 100%;
+  }
 }
