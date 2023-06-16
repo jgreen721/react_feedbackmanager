@@ -26,6 +26,10 @@
   flex: 1;
 }
 
+.mobile-roadmap-view {
+  display: none;
+}
+
 @media (max-width: 650px) {
   .roadmap-header {
     border-radius: 0;
