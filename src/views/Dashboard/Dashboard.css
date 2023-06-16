@@ -3,6 +3,8 @@
   width: 100%;
   display: flex;
   gap: 3rem;
+  display: grid;
+  grid-template-columns: 3fr 9fr;
 }
 
 .info-column,
@@ -21,6 +23,7 @@
 .info-column div {
   /* flex-grow: 1; */
   /* border: 2px solid green; */
+  /* width: auto; */
 }
 
 .main-column {
@@ -46,6 +49,7 @@
 @media screen and (max-width: 825px) {
   .dashboard {
     flex-direction: column;
+    display: flex;
     /* padding: 5.6rem 3.9rem; */
   }
 
