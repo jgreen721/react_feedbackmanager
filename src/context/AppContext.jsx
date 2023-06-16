@@ -88,6 +88,12 @@ console.log("Data",res.productRequests)
 
     const handleChangeCategory=(category)=>{
         setCurr(category);
+        category = category.toLowerCase();
+        console.log("Category",category)
+        if(category == "all")setSuggestions((suggestions)=> data.filter(d=>d.status == "suggestion"))
+
+        else setSuggestions((suggestions)=>data.filter(suggestion=>suggestion.category == category && suggestion.status == "suggestion"))
+
     }
 
 
